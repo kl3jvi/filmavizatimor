@@ -1,0 +1,7 @@
+{
+  "name": "filmashqip",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

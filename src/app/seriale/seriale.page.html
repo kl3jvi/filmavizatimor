@@ -1,0 +1,32 @@
+<ion-header no-border>
+  <ion-toolbar color="tertiary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Seriale te Ndryshem</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content>
+
+    <ion-item>
+        <ion-thumbnail slot="start">
+          <img src="/assets/images/mrbean.png">
+        </ion-thumbnail>
+        <ion-label>
+          <h3>Serial - Mr Bean</h3>
+          <ion-button (click)="showInterstitial()" href="/mrbean">Shiko Serialin</ion-button>
+        </ion-label>
+      </ion-item>
+
+      <ion-item>
+          <ion-thumbnail slot="start">
+            <img src="/assets/images/tom.png">
+          </ion-thumbnail>
+          <ion-label>
+            <h3>Serial - Tomi dhe Xherri</h3>
+            <ion-button (click)="showInterstitial()" href="/tom">Shiko Serialin</ion-button>
+          </ion-label>
+        </ion-item>
+  
+</ion-content>

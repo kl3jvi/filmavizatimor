@@ -1,0 +1,99 @@
+<ion-header no-border>
+  <ion-toolbar color="tertiary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Filma Vizatimorë</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="search"></ion-icon>
+      </ion-button>
+    </ion-buttons>  
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  
+   <ion-item lines="none">
+     <ion-badge slot="start">Masha Dhe Ariu</ion-badge>
+     <ion-button (click)="showInterstitial()" slot="end"  href="/masha">
+       <ion-icon name="arrow-forward" slot="icon-only"></ion-icon>
+      </ion-button>
+   </ion-item>
+
+
+<ion-slides [options]="slidesOptions">
+  <ion-slide>
+    <ion-card (click)="watch('tqqhZ8Fsseg')"  class="flash_card masha1"></ion-card>
+  </ion-slide>
+
+  
+  <ion-slide>
+      <ion-card (click)="watch('b2kNltL8bBU')" class="flash_card masha2"></ion-card>
+    </ion-slide>
+
+    <ion-slide>
+        <ion-card (click)="watch('kEvA23H0k9U')" class="flash_card masha3"></ion-card>
+      </ion-slide>
+
+      <ion-slide>
+          <ion-card (click)="watch('pFsOIGciZtU')" class="flash_card masha4"></ion-card>
+        </ion-slide>
+</ion-slides>
+
+
+   <ion-item lines="none">
+      <ion-badge slot="start">Spongebob</ion-badge>
+      <ion-button (click)="showInterstitial()" slot="end"  href="/spongebob">
+        <ion-icon name="arrow-forward" slot="icon-only"></ion-icon>
+       </ion-button>
+    </ion-item>
+
+    <ion-slides [options]="slidesOptions">
+      <ion-slide>
+        <ion-card (click)="watch('0bKVpc8U2go')"  class="flash_card sponge"></ion-card>
+      </ion-slide>
+    
+      <ion-slide>
+          <ion-card (click)="watch('PI4T5EcJ1U4')" class="flash_card sponge1"></ion-card>
+        </ion-slide>
+    
+        <ion-slide>
+            <ion-card (click)="watch('VtZxUvaF3Es')" class="flash_card sponge2"></ion-card>
+          </ion-slide>
+    
+          <ion-slide>
+              <ion-card (click)="watch('RrUtUJ6oeIc')" class="flash_card sponge3"></ion-card>
+            </ion-slide>
+    </ion-slides>
+    
+  
+    <ion-item lines="none">
+        <ion-badge slot="start">Pantera Rozë</ion-badge>
+        <ion-button slot="end" (click)="showInterstitial()" href="/pantera">
+          <ion-icon name="arrow-forward" slot="icon-only"></ion-icon>
+         </ion-button>
+      </ion-item>
+  
+      <ion-slides [options]="slidesOptions">
+        <ion-slide>
+          <ion-card (click)="watch('0bKVpc8U2go')"  class="flash_card pantera"></ion-card>
+        </ion-slide>
+      
+        <ion-slide>
+            <ion-card (click)="watch('PI4T5EcJ1U4')" class="flash_card pantera1"></ion-card>
+          </ion-slide>
+      
+          <ion-slide>
+              <ion-card (click)="watch('VtZxUvaF3Es')" class="flash_card pantera2"></ion-card>
+            </ion-slide>
+      
+            <ion-slide>
+                <ion-card (click)="watch('RrUtUJ6oeIc')" class="flash_card pantera3"></ion-card>
+              </ion-slide>
+      </ion-slides>
+
+
+
+</ion-content>

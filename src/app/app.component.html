@@ -1,0 +1,28 @@
+<ion-app>
+  <ion-split-pane>
+    <ion-menu type="overlay">
+      <ion-header>
+        <ion-toolbar color="tertiary">
+          <ion-title>Kategorite</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+          <ion-list>
+
+              <ion-item href="/seriale">
+                  <ion-icon slot="start" name="logo-freebsd-devil" color="black"></ion-icon>
+                  <ion-label>Seriale</ion-label>
+              </ion-item>
+
+              <ion-item href="/filma">
+                  <ion-icon slot="start" name="logo-ionitron" color="black"></ion-icon>
+                  <ion-label>Filma Te Dubluar</ion-label>
+              </ion-item>
+              
+            </ion-list>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet main></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>
+
